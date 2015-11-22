@@ -1,0 +1,14 @@
+<aside id="browser">
+  <ul>
+  {% for col in site.collections %}
+    <li>
+      {{ col }}
+      <ul>
+        {% for i in site.col.docs %}
+          <li><a href="{{ i.url }}">{{ i.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </li>
+    {% endfor %}
+  </ul>
+</aside>

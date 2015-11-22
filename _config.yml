@@ -1,0 +1,21 @@
+# Site settings
+title: Lab Fellows documentation platform
+email: nospam@labfellows.com
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://docs.labfellows.com" # the base hostname & protocol for your site
+twitter_username: labfellows
+github_username:  labfellows
+
+# Build settings
+markdown: kramdown
+
+# Collections of docs are defined here.
+# "output: true" is required to make each file an individual page in the rendered HTML
+collections:
+  web:
+    output: true
+  sales:
+    output: true
+  internal:
+    output: true
+  
